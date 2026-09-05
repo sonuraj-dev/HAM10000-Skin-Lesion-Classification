@@ -1,0 +1,52 @@
+Methodology for Your Paper
+
+To prevent data leakage, the HAM10000 dataset was partitioned at the lesion level rather than the image level. All images corresponding to the same lesion identifier (lesion_id) were assigned exclusively to either the training or validation set. An 80:20 lesion-wise split was performed using stratified sampling based on the diagnostic class (dx) with a fixed random seed of 42 to ensure reproducibility. This strategy preserved the class distribution while preventing images from the same lesion from appearing in both subsets.
+
+
+
+
+
+
+
+
+
+in phase 22
+Yes. Since your 5 individual models are already trained, the best next step is to create hybrid/ensemble models using different combinations.
+
+I recommend doing this in two stages:
+
+Stage A — No retraining hybrid ensemble
+
+Combine predictions from already trained models:
+
+All 10 possible 2-model combinations
+Soft voting
+Weighted soft voting
+Compare Accuracy, Precision, Recall, Macro F1
+
+This is the fastest and cleanest next experiment.
+
+Stage B — True trainable hybrid model
+
+Later, we can combine features from two models, for example:
+
+DenseNet121 features ─┐
+                      ├── Feature Fusion ── Classifier ── 7 classes
+Swin-Tiny features ───┘
+
+Let's first do Stage A, because we can identify which model pairs actually complement each other.
+
+
+
+Phase 4  → Dataset Splitting
+Phase 5  → Create Train/Validation Image Folders
+Phase 6  → Verify Final Dataset Integrity
+Phase 7  → Class Imbalance Strategy
+Phase 8  → Image Preprocessing
+Phase 9  → Data Augmentation
+Phase 10 → Data Loading Pipeline
+Phase 11 → Model Selection & Baseline
+Phase 12 → Model Training
+Phase 13 → Evaluation
+Phase 14 → Explainability
+Phase 15 → Research Experiments & Comparison

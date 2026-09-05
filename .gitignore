@@ -1,0 +1,27 @@
+# Dataset images
+HAM10000_images/
+dataset/train/
+dataset/val/
+
+# Model weights
+models/*.pth
+models/*.pt
+
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+ham_venv/
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Large/generated files
+*.zip
+*.tar
+*.tar.gz
+
+# OS
+.DS_Store
+Thumbs.db

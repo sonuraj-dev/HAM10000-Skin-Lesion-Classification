@@ -1,0 +1,97 @@
+Combination,Type,Weights,Accuracy,Balanced Accuracy,Precision,Recall,F1-Score
+DenseNet121 + ResNet50 + EfficientNet_B0 + MobileNetV3_Large + Swin_Tiny,5-Model Equal Voting,0.20 / 0.20 / 0.20 / 0.20 / 0.20,87.04,81.55,81.61,81.55,81.33
+DenseNet121 + MobileNetV3_Large + Swin_Tiny,3-Model Equal Voting,0.33 / 0.33 / 0.33,87.04,80.62,81.16,80.62,80.82
+DenseNet121 + Swin_Tiny,2-Model Equal Voting,0.50 / 0.50,86.79,80.21,81.35,80.21,80.62
+DenseNet121 + Swin_Tiny,Weighted Soft Voting,0.50 / 0.50,86.79,80.21,81.35,80.21,80.62
+ResNet50 + Swin_Tiny,Weighted Soft Voting,0.50 / 0.50,86.94,80.74,80.9,80.74,80.61
+ResNet50 + Swin_Tiny,2-Model Equal Voting,0.50 / 0.50,86.94,80.74,80.9,80.74,80.61
+DenseNet121 + ResNet50 + Swin_Tiny,3-Model Equal Voting,0.33 / 0.33 / 0.33,86.49,80.31,80.54,80.31,80.24
+DenseNet121 + ResNet50 + MobileNetV3_Large,3-Model Equal Voting,0.33 / 0.33 / 0.33,86.39,81.22,79.73,81.22,80.23
+ResNet50 + MobileNetV3_Large + Swin_Tiny,3-Model Equal Voting,0.33 / 0.33 / 0.33,86.54,79.95,81.15,79.95,80.11
+ResNet50 + EfficientNet_B0 + Swin_Tiny,3-Model Equal Voting,0.33 / 0.33 / 0.33,86.29,79.71,80.51,79.71,79.8
+ResNet50 + EfficientNet_B0 + MobileNetV3_Large,3-Model Equal Voting,0.33 / 0.33 / 0.33,85.99,80.51,79.65,80.51,79.68
+ResNet50 + Swin_Tiny,Weighted Soft Voting,0.40 / 0.60,86.39,78.89,80.33,78.89,79.48
+MobileNetV3_Large + Swin_Tiny,2-Model Equal Voting,0.50 / 0.50,86.29,78.98,80.44,78.98,79.35
+MobileNetV3_Large + Swin_Tiny,Weighted Soft Voting,0.50 / 0.50,86.29,78.98,80.44,78.98,79.35
+EfficientNet_B0 + MobileNetV3_Large + Swin_Tiny,3-Model Equal Voting,0.33 / 0.33 / 0.33,86.24,79.29,79.99,79.29,79.29
+MobileNetV3_Large + Swin_Tiny,Weighted Soft Voting,0.30 / 0.70,85.94,78.25,80.44,78.25,79.19
+MobileNetV3_Large + Swin_Tiny,Weighted Soft Voting,0.40 / 0.60,86.04,78.13,80.43,78.13,79.11
+MobileNetV3_Large + Swin_Tiny,Weighted Soft Voting,0.20 / 0.80,85.84,78.06,80.41,78.06,79.09
+DenseNet121 + Swin_Tiny,Weighted Soft Voting,0.40 / 0.60,86.09,78.15,80.1,78.15,79.02
+EfficientNet_B0 + Swin_Tiny,2-Model Equal Voting,0.50 / 0.50,85.99,79.77,78.62,79.77,79.01
+EfficientNet_B0 + Swin_Tiny,Weighted Soft Voting,0.50 / 0.50,85.99,79.77,78.62,79.77,79.01
+DenseNet121 + ResNet50 + EfficientNet_B0,3-Model Equal Voting,0.33 / 0.33 / 0.33,86.19,80.46,78.06,80.46,78.95
+EfficientNet_B0 + Swin_Tiny,Weighted Soft Voting,0.20 / 0.80,85.84,77.84,80.41,77.84,78.93
+EfficientNet_B0 + Swin_Tiny,Weighted Soft Voting,0.40 / 0.60,85.79,78.34,79.76,78.34,78.91
+EfficientNet_B0 + Swin_Tiny,Weighted Soft Voting,0.30 / 0.70,85.84,77.78,80.36,77.78,78.87
+DenseNet121 + Swin_Tiny,Weighted Soft Voting,0.60 / 0.40,85.89,79.01,79.56,79.01,78.87
+DenseNet121 + ResNet50,2-Model Equal Voting,0.50 / 0.50,85.89,80.15,77.95,80.15,78.8
+DenseNet121 + ResNet50,Weighted Soft Voting,0.50 / 0.50,85.89,80.15,77.95,80.15,78.8
+ResNet50 + Swin_Tiny,Weighted Soft Voting,0.30 / 0.70,86.14,77.75,80.03,77.75,78.74
+Swin_Tiny,Individual,-,85.64,77.66,80.05,77.66,78.71
+ResNet50 + Swin_Tiny,Weighted Soft Voting,0.60 / 0.40,85.99,79.02,78.82,79.02,78.7
+ResNet50 + Swin_Tiny,Weighted Soft Voting,0.20 / 0.80,85.84,77.57,80.22,77.57,78.7
+DenseNet121 + EfficientNet_B0 + Swin_Tiny,3-Model Equal Voting,0.33 / 0.33 / 0.33,86.59,79.11,78.58,79.11,78.68
+DenseNet121 + Swin_Tiny,Weighted Soft Voting,0.20 / 0.80,85.69,77.61,79.63,77.61,78.52
+DenseNet121 + EfficientNet_B0 + MobileNetV3_Large,3-Model Equal Voting,0.33 / 0.33 / 0.33,85.89,79.5,78.39,79.5,78.48
+DenseNet121 + Swin_Tiny,Weighted Soft Voting,0.30 / 0.70,85.64,77.48,79.69,77.48,78.48
+DenseNet121 + ResNet50,Weighted Soft Voting,0.30 / 0.70,85.34,79.26,78.01,79.26,78.38
+ResNet50 + MobileNetV3_Large,Weighted Soft Voting,0.60 / 0.40,85.44,79.07,78.35,79.07,78.38
+DenseNet121 + ResNet50,Weighted Soft Voting,0.40 / 0.60,85.29,79.03,77.9,79.03,78.17
+ResNet50 + MobileNetV3_Large,Weighted Soft Voting,0.70 / 0.30,85.19,79.05,77.75,79.05,78.14
+ResNet50 + Swin_Tiny,Weighted Soft Voting,0.70 / 0.30,85.29,78.52,78.11,78.52,78.09
+ResNet50 + MobileNetV3_Large,Weighted Soft Voting,0.50 / 0.50,85.39,78.71,78.44,78.71,78.07
+ResNet50 + MobileNetV3_Large,2-Model Equal Voting,0.50 / 0.50,85.39,78.71,78.44,78.71,78.07
+DenseNet121 + EfficientNet_B0,Weighted Soft Voting,0.60 / 0.40,85.74,79.85,77.07,79.85,78.03
+DenseNet121 + EfficientNet_B0,2-Model Equal Voting,0.50 / 0.50,85.64,79.15,77.56,79.15,77.87
+DenseNet121 + EfficientNet_B0,Weighted Soft Voting,0.50 / 0.50,85.64,79.15,77.56,79.15,77.87
+DenseNet121 + ResNet50,Weighted Soft Voting,0.20 / 0.80,85.04,78.77,77.22,78.77,77.8
+ResNet50 + EfficientNet_B0,Weighted Soft Voting,0.70 / 0.30,84.93,78.87,76.97,78.87,77.71
+DenseNet121 + ResNet50,Weighted Soft Voting,0.60 / 0.40,85.34,78.7,77.03,78.7,77.63
+DenseNet121 + Swin_Tiny,Weighted Soft Voting,0.70 / 0.30,85.29,78.22,77.64,78.22,77.51
+ResNet50 + Swin_Tiny,Weighted Soft Voting,0.80 / 0.20,85.04,78.35,77.05,78.35,77.49
+ResNet50 + EfficientNet_B0,Weighted Soft Voting,0.60 / 0.40,84.73,78.7,76.65,78.7,77.45
+ResNet50 + EfficientNet_B0,Weighted Soft Voting,0.80 / 0.20,84.83,78.43,76.85,78.43,77.43
+ResNet50 + MobileNetV3_Large,Weighted Soft Voting,0.80 / 0.20,84.83,78.5,76.8,78.5,77.4
+DenseNet121 + EfficientNet_B0,Weighted Soft Voting,0.70 / 0.30,85.39,78.46,77.01,78.46,77.3
+DenseNet121 + MobileNetV3_Large,Weighted Soft Voting,0.60 / 0.40,85.59,78.36,76.94,78.36,77.24
+ResNet50,Individual,-,84.73,78.3,76.32,78.3,77.1
+DenseNet121 + MobileNetV3_Large,Weighted Soft Voting,0.50 / 0.50,85.39,78.14,77.06,78.14,77.08
+DenseNet121 + ResNet50,Weighted Soft Voting,0.70 / 0.30,85.04,78.22,76.65,78.22,77.08
+DenseNet121 + MobileNetV3_Large,2-Model Equal Voting,0.50 / 0.50,85.39,78.14,77.06,78.14,77.08
+DenseNet121 + MobileNetV3_Large,Weighted Soft Voting,0.70 / 0.30,85.39,77.94,76.68,77.94,76.95
+DenseNet121 + Swin_Tiny,Weighted Soft Voting,0.80 / 0.20,84.93,77.35,77.09,77.35,76.77
+MobileNetV3_Large + Swin_Tiny,Weighted Soft Voting,0.60 / 0.40,85.09,77.02,77.29,77.02,76.75
+DenseNet121 + EfficientNet_B0,Weighted Soft Voting,0.80 / 0.20,85.04,77.78,76.5,77.78,76.74
+ResNet50 + EfficientNet_B0,Weighted Soft Voting,0.50 / 0.50,84.83,78.35,75.49,78.35,76.59
+ResNet50 + EfficientNet_B0,2-Model Equal Voting,0.50 / 0.50,84.83,78.35,75.49,78.35,76.59
+DenseNet121 + ResNet50,Weighted Soft Voting,0.80 / 0.20,84.83,77.56,76.47,77.56,76.52
+DenseNet121 + MobileNetV3_Large,Weighted Soft Voting,0.80 / 0.20,85.09,77.36,76.19,77.36,76.4
+EfficientNet_B0 + MobileNetV3_Large,Weighted Soft Voting,0.40 / 0.60,84.33,77.37,76.44,77.37,76.35
+EfficientNet_B0 + MobileNetV3_Large,Weighted Soft Voting,0.50 / 0.50,84.13,77.8,75.83,77.8,76.32
+EfficientNet_B0 + MobileNetV3_Large,2-Model Equal Voting,0.50 / 0.50,84.13,77.8,75.83,77.8,76.32
+ResNet50 + MobileNetV3_Large,Weighted Soft Voting,0.40 / 0.60,84.38,76.99,75.97,76.99,76.0
+MobileNetV3_Large + Swin_Tiny,Weighted Soft Voting,0.70 / 0.30,84.63,76.33,76.69,76.33,75.98
+EfficientNet_B0 + MobileNetV3_Large,Weighted Soft Voting,0.30 / 0.70,83.98,76.57,76.4,76.57,75.97
+EfficientNet_B0 + MobileNetV3_Large,Weighted Soft Voting,0.20 / 0.80,84.03,76.19,76.4,76.19,75.83
+EfficientNet_B0 + Swin_Tiny,Weighted Soft Voting,0.60 / 0.40,84.63,76.76,75.43,76.76,75.76
+MobileNetV3_Large + Swin_Tiny,Weighted Soft Voting,0.80 / 0.20,84.23,76.13,76.16,76.13,75.72
+DenseNet121 + MobileNetV3_Large,Weighted Soft Voting,0.40 / 0.60,84.68,76.84,75.45,76.84,75.71
+DenseNet121,Individual,-,84.53,76.59,75.47,76.59,75.57
+ResNet50 + MobileNetV3_Large,Weighted Soft Voting,0.30 / 0.70,84.28,76.17,75.76,76.17,75.49
+DenseNet121 + MobileNetV3_Large,Weighted Soft Voting,0.30 / 0.70,84.38,76.0,75.78,76.0,75.49
+DenseNet121 + EfficientNet_B0,Weighted Soft Voting,0.40 / 0.60,84.43,76.72,75.31,76.72,75.48
+DenseNet121 + EfficientNet_B0,Weighted Soft Voting,0.30 / 0.70,84.18,76.81,75.0,76.81,75.33
+EfficientNet_B0 + Swin_Tiny,Weighted Soft Voting,0.70 / 0.30,84.33,76.64,74.8,76.64,75.3
+EfficientNet_B0 + MobileNetV3_Large,Weighted Soft Voting,0.60 / 0.40,83.68,77.08,74.47,77.08,75.27
+ResNet50 + MobileNetV3_Large,Weighted Soft Voting,0.20 / 0.80,83.98,75.88,75.04,75.88,75.1
+DenseNet121 + MobileNetV3_Large,Weighted Soft Voting,0.20 / 0.80,83.93,75.73,75.09,75.73,74.98
+ResNet50 + EfficientNet_B0,Weighted Soft Voting,0.40 / 0.60,84.18,76.42,74.34,76.42,74.84
+EfficientNet_B0 + Swin_Tiny,Weighted Soft Voting,0.80 / 0.20,83.78,76.06,74.53,76.06,74.69
+DenseNet121 + EfficientNet_B0,Weighted Soft Voting,0.20 / 0.80,83.43,75.61,74.43,75.61,74.3
+EfficientNet_B0 + MobileNetV3_Large,Weighted Soft Voting,0.70 / 0.30,83.13,76.26,73.26,76.26,74.26
+MobileNetV3_Large,Individual,-,83.08,75.11,74.0,75.11,74.2
+ResNet50 + EfficientNet_B0,Weighted Soft Voting,0.30 / 0.70,83.78,75.82,73.13,75.82,73.94
+ResNet50 + EfficientNet_B0,Weighted Soft Voting,0.20 / 0.80,83.08,75.1,72.62,75.1,73.22
+EfficientNet_B0 + MobileNetV3_Large,Weighted Soft Voting,0.80 / 0.20,82.68,74.89,71.95,74.89,72.74
+EfficientNet_B0,Individual,-,82.33,74.57,71.06,74.57,72.27

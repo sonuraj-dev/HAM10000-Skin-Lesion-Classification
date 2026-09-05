@@ -1,0 +1,6 @@
+Model,Accuracy,Balanced Accuracy,Precision,Recall,F1-Score,Trainable Parameters,Epochs Completed,Best Model Path
+DenseNet121,84.53,76.59,,,75.57,,25,../models/densenet121_baseline_best.pth
+ResNet50,84.73,78.3,76.32,78.3,77.1,23522375.0,25,../models/resnet50_best.pth
+EfficientNet_B0,82.33,74.57,71.06,74.57,72.27,4016515.0,25,../models/efficientnet_b0_best.pth
+MobileNetV3_Large,83.08,75.11,74.0,75.11,74.2,4210999.0,22,../models/mobilenetv3_large_best.pth
+Swin_Tiny,85.64,77.66,80.05,77.66,78.71,27524737.0,25,../models/swin_tiny_best.pth
